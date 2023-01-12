@@ -9,17 +9,6 @@
 @import "assets/scss/config/global";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
-:root {
-  --pink: #ff74a4;
-  --violet: #9f6ea3;
-  --lightblack: #515C6F;
-  --white: #ffffff;
-  --darkwhite: #cecaca;
-  --pinkshadow: #ffcbdd;
-  --lightbshadow: rgba(0, 0, 0, 0.15);
-}
-
 .app-author {
   position: fixed;
   bottom: 30px;
@@ -32,8 +21,6 @@
 
 .app-container {
   --gap: 15px;
-  //display: grid;
-  //place-items: center;
   min-height: 100vh;
   background-color: var(--bcs-grey-3);
   padding: 10px;
@@ -45,10 +32,6 @@
   margin: auto;
   display: grid;
   gap: var(--gap);
-  //box-shadow: 0 0 5px rgba(0, 0, 0, 0.05), 0 25px 35px rgba(0, 0, 0, 0.03);
-  //border-radius: 8px;
-  //background-color: #fff;
-  //padding: 20px;
 
   .title {
     text-align: center;
